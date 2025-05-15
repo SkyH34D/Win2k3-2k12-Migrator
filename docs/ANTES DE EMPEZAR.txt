@@ -1,0 +1,35 @@
+
+ ####################################################  
+ ####################################################  
+ ##                                                ##  
+ ##                                                ##  
+ ##           Migrador (semi)Definitivo®           ##  
+ ##                                                ##  
+ ##                                                ##  
+ ####################################################  
+ ###############Versión 0.8.7 (Alpha)################  
+
+ ----------------------------------------------------  
+                    ANTES DE COMENZAR                      
+ ----------------------------------------------------
+
+ ·Es de vital importancia que sigas estas indicaciones 
+ para evitar cualquier tipo de catástrofe durante la 
+ migración.
+
+ -En Windows 2003-
+ >Instalar Service Pack 2 y PowerShell 1.0 (ambos inclui-
+ dos) y reiniciar.
+ 
+ -En Window 2012-
+ >Habilitar el Escritorio remoto
+
+ -En ambas máquinas-
+ >Configurar la red de modo que las másquinas sean visi-
+ bles entre ellas.
+ >Activar la ejecución de scripts mediante
+ Set-ExecutionPolicy Unrestricted
+ >Cambiar el nombre del Windows Server 2012 por uno
+ facil de recordar
+
+ ·La palabra clave es 'opresion'

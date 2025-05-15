@@ -1,0 +1,144 @@
+﻿Modo guiado.
+intro. La migracion de un equipo windows server 2003 de 32 bits a un windows 2012 es un trabajo arduo y complejo.
+
+El Migrador (semi)Definitivo facilita esta labor agrupando todo lo necesario para llevar a cabo un correcta migracion
+
+El modo guiado te lleva de la mano a lo largo de este proceso. Sientate y disfruta del proceso.
+
+Adveretencia: tienes que leer el documento previo antes de contirua
+
+introduce palabra clave
+
+
+1 - Compartidor
+---------------
+en la hoja
+
+
+2 - originador
+--------------
+
+Ahora toca instalar la utilidad que nos permitirá realizar la migración.
+#¿desea instalar...
+
+Ahora crearemos la utilidad para el sistema operativo que deseamos migrar
+Es recomendable crearla en la recurso de red que hemos creado con el Compartidor
+#¿desea crear...
+
+#compleado
+Si la ruta indicada no ha sido la carpeta creada con el compartidor, copia la carpeta con las utilidades que se acaban de crear, en el Servidor Legacy
+
+Ahora ejecuta el Migrador (semi)Definitivo en el servidor Legacy e inicia el modo guiado, la palabra clave para iniciarlo es "por"
+Vuelve cuando hayas obtenido la palabra clave para continuar 
+
+Introduce la palabra clave:0
+	..else{* =  buen intento, feriante.
+		por =heueg setpotr
+
+3 - deployer
+
+ahora toca acceder a la carpeta compartida creada con el compartidor.
+
+Si no la creaste, ve a crearla y si tienes otro metodo, pon 'n'
+#acceder recurso compartido
+
+
+
+Si estas siguiendo el modo guia al pie de la guia, si
+
+#Migrations en carpeta de red
+
+#completado
+Ahora se habrán iniciado las migration tools
+Si se abrio una ventana emergente no la cierres
+
+4 - Exportar usuarios
+
+Indica la ruta de red creada en el carpeteador del servidor destino
+#introduce ruta para guardar los...
+
+!Quitar lo de la copia de red
+
+#Completado
+Ahora vuelve al cliente para realizar la importacion de usuarios. La palabra clave es 'la'.
+
+Vuelve cuando tengas la palabra clave para continuar
+
+Introduce palabra clave para continuar:
+	if (la=ehecntrado)
+
+5- Importar usuarios
+
+Indicamos la carpeta compartida que hemos creado previamente y que deberia contener el arhcivo de usurios y grupos.
+#introduce ruta del archivo
+
+
+#desea habilitar los usuarios
+Ahora dirigete al Server Legacy para empezar con la migración de datos, la palabra clave es 'horda'
+
+Vuleve aqui cuando aparezca la barra de carga
+
+¿Esta de vuelta?(s.n)
+
+6 - Migrador 
+
+EMpieza la transmision de datos
+Introduce la ruta del archivo o carpeta que quieras migrar.
+No se aceptan discos enteros ni entradas multiples
+#ruta origen
+
+Ruta de la carpeta donde se copiaran los datos.
+Tiene que existir, pero puede crearse despues de introducirla
+Tras introducirla, vete al Servidor destino y creala
+#introduce ruta destino
+
+
+
+
+
+
+
+
+
+
+!!!!!!!!!!
+!!Hay que añadir opcion saltar al siguiente paso, por si es necesario reiniciar la utilidad
+Una opcion sería añadir menu de pasos.
+	iniciar
+	ir al indice de pasos
+
+añadir linea para iniciar las migration tools
+
+Se podría automatizar haciendo que introdujera la ip del equipo en un principio y ya utilizando esa variable para el resto de la instalación
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##########################
+documento previo
+
+que las máquinas se vean
+que los escripts esten en C:
+activar ejecucion de scripts
+	Get-ExecutionPolicy | si el valor no es Unrestricted ejecutar
+		Set-ExecutionPolicy Unrestricted
