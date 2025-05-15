@@ -1,7 +1,8 @@
 # Win2003-to-2012 Migration Toolkit (2020 Edition)
 
 > **Estado:** _“as-is / historical”_.  
-> Estos fueron mis **primeros scripts en PowerShell** (año 2020). Se publican con fines formativos y porque siguen siendo útiles cuando un servidor Windows Server 2003 no puede actualizarse directamente a 2019/2022.
+> Estos fueron mis **primeros scripts en PowerShell** (año 2020). Se publican con fines formativos y porque les tengo un cariño especial al ser mis primeros pasos en powershell.
+> La calidad del código es muy mejorable, se nota mucho que son mis primeros pasos en programación y en powershell.
 
 ## 🚀 Qué hace
 
@@ -117,3 +118,5 @@ Sigue las instrucciones y las palabras clave indicadas en el terminal o en `docs
 * Revisar manualmente cada *.ps1* (algunos carecen de comentarios) y actualizar rutas/IP hardcodeadas.  
 * Añadir logs de ejemplo y capturas de pantalla al directorio **examples/**.  
 * (Opcional) Crear un ZIP automatizado antes del _commit_ final, como se muestra aquí.
+
+_Creado con cariño en junio de 2020_
