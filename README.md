@@ -2,7 +2,7 @@
 
 > **Estado:** _“as-is / historical”_.  
 > Estos fueron mis **primeros scripts en PowerShell** (año 2020). Se publican con fines formativos y porque les tengo un cariño especial al ser mis primeros pasos en powershell.
-> La calidad del código es muy mejorable, se nota mucho que son mis primeros pasos en programación y en powershell.
+> La calidad del código es muy mejorable, se nota mucho que son mis gateos programación y en powershell 👶🍼.
 
 ## 🚀 Qué hace
 
